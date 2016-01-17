@@ -40,6 +40,7 @@ body {
     margin: auto;
     display: block;
     max-width: 650px;
+    letter-spacing: 0.03em
 }
 .rocket_icon {
     width: 50px;
@@ -74,6 +75,7 @@ body {
     background-color: #222222;
     text-align: left;
     text-indent: 60px;
+    letter-spacing: 0.05em
 }
 .square_key {
     width: 70%;
@@ -89,6 +91,7 @@ body {
     margin-top: 15px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
+    letter-spacing: 0.02em
  
 }
 .square_key:hover {
@@ -103,11 +106,12 @@ body {
     padding-top: 20px;
     padding-bottom: 2px;
     height: 36px;
-    text-align: left;
+    text-align: center;
     background-color: #343434;
     margin-top: 15px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+    font-weight: bold;
 
 }
 .square_value:hover {
@@ -147,6 +151,7 @@ background-color: #a282ff;
     border-radius: 2px;
     height: 50px;
     width: 110px;
+    margin-left: 10px;
     
 }
 
