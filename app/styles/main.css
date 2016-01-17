@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+.container {
+	min-height: 800px;
+}
+
 .formspree input {
 padding: 10px;
     outline-width: 0;
