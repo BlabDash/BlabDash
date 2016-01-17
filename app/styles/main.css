@@ -31,6 +31,7 @@ body {
     text-decoration: none;
     max-width: 650px;
     margin: auto;
+    letter-spacing: -0.05em;
 }
 .home_header h2 {
     font-size: 30px;
@@ -40,7 +41,7 @@ body {
     margin: auto;
     display: block;
     max-width: 650px;
-    letter-spacing: 0.03em
+    letter-spacing: 0.05em
 }
 .rocket_icon {
     width: 50px;
@@ -127,7 +128,6 @@ body {
     background: #2c2c2c;
     color: white;
     margin: 0px 0px 25px 0;
-
     animation: fadein 1s;
     animation-delay: 0.8s;
     animation-fill-mode: both;
@@ -142,6 +142,7 @@ body {
     border-radius: 2px;
     height: 30px;
     text-indent: 15px;
+    letter-spacing: 0.04em;
 }
 
 
@@ -152,8 +153,10 @@ background-color: #a282ff;
     height: 50px;
     width: 110px;
     margin-left: 10px;
-    
+    font-size: 1.04em;
 }
+
+
 
 /*---------- ANIMATION --------------*/
 
