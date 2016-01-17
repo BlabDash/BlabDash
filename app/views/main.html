@@ -1,15 +1,15 @@
 <div class="home_header">
-    <h1>Blab.im is growing fast <img src="http://emojipedia-us.s3.amazonaws.com/cache/f2/2e/f22eeaffb4cf3d62c240ac49e72f3745.png" class="rocket_icon"></h1>
-    <h2>We created a tool that keeps track of their growth</h2>
+    <h1>BlabDash</h1>
+    <h2>Track the growth of blab.im</h2>
 </div>
 <div class="square_one">
     <div class="square_header">Today's statistics</div>
-    <div class="square_key grey_background">New user registrations</div>
-    <div class="square_value grey_background">{{today[0].total_new_users}}</div>
-    <div class="square_key">Logged-in users</div>
-    <div class="square_value">{{today[0].total_unique}}</div>
-    <div class="square_key grey_background">Users that went live on cam</div>
-    <div class="square_value grey_background">{{today[0].total_on_cam}}</div>
-    <div class="square_key">Total hosted Blabs</div>
-    <div class="square_value">{{today[0].total_blabs}}</div>
+    <div class="square_key grey_background">New users</div>
+    <div class="square_value grey_background">{{today[0].total_new_users | number:0}}</div>
+    <div class="square_key">Unique users</div>
+    <div class="square_value">{{today[0].total_unique | number:0}}</div>
+    <div class="square_key grey_background">Broadcasters</div>
+    <div class="square_value grey_background">{{today[0].total_on_cam | number:0}}</div>
+    <div class="square_key">Blabs Created</div>
+    <div class="square_value">{{today[0].total_blabs | number:0}}</div>
 </div>

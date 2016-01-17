@@ -6,7 +6,7 @@
 body {
     font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
     margin: 50 auto;
-    background-color: #200d3d;
+    background-color: #1e1e1e;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 .home_header h2 {
     font-size: 30px;
-    color: #7e549b;
+    color: #a787e0;
     font-weight: 200;
     position: relative;
     margin: auto;
@@ -51,48 +51,66 @@ body {
 /*---------- HOME SQUARE --------------*/
 
 .square_one {
-    background-color: black;
+    background-color: #222222;
     max-width: 400px;
     height: 400px;
     margin: auto;
     display: block;
     position: relative;
+    border: 1px solid #343434;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    
+    
     animation: fadein 1s;
     animation-delay: 0.8s;
     animation-fill-mode: both;
+
 }
 .square_header {
     width: 100%;
-    color: #fff;
+    color: #f3f3f3;
     padding-top: 45px;
     padding-bottom: 45px;
-    font-weight: bold;
-    font-size: 1.8em;
-    background-color: #101010;
+    font-weight:200;
+    letter-spacing: 0.05em;
+    font-size: 1.6em;
+    background-color: #222222;
+        text-align: left;
+    text-indent: 60px;
 }
 .square_key {
     width: 70%;
     float: left;
-    color: #fff;
+    color: #dddddd;
+    font-size: 1em;
+    font-weight:100;
     padding-top: 25px;
     padding-bottom: 25px;
+    text-align: left;
+    text-indent: 60px;
+ 
 }
 .square_key:hover {
-    text-shadow: 1px 1px #a857e1;
+    text-shadow: 1px 1px #222222;
 }
 .square_value {
     width: 30%;
     float: left;
-    color: #fff;
+    color: #dddddd;
+    font-size: 1em;
+    font-weight:100;
     padding-top: 25px;
     padding-bottom: 25px;
     height: 18px;
+    text-align: left;
+
 }
 .square_value:hover {
     text-shadow: 1px 1px #a857e1;
 }
 .grey_background {
-    background-color: #222222;
+    background-color: #343434;
 }
 
 /*---------- FOOTER FORM --------------*/
@@ -100,11 +118,10 @@ body {
 .formspree input {
     padding: 10px;
     outline-width: 0;
-    background: #220344;
+    background: #2c2c2c;
     color: white;
-    border: 1px dashed #340C5D;
     margin: 0px 0px 25px 0;
-    box-shadow: 0px 0px 12px #120421;
+
     animation: fadein 1s;
     animation-delay: 0.8s;
     animation-fill-mode: both;
@@ -113,19 +130,18 @@ body {
     border: 1px dashed #622c97;
 }
 .formspree .message {
-    width: 200px;
+    width: 330px;
+    background-color: #343434;
+    border: 1px solid #343434;
+    border-radius: 2px;
 }
 
 
-.footnote {
-    max-width: 500px;
-    margin: auto;
-    color: #5A4C82;
-    font-size: 12px;
-    text-shadow: 1px 1px #19073C;
-    animation: fadein 1s;
-    animation-delay: 0.8s;
-    animation-fill-mode: both;
+.formspree #button{
+background-color: #a282ff;
+    border: 1px solid #a282ff;
+    border-radius: 2px;
+    
 }
 
 /*---------- ANIMATION --------------*/
