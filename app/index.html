@@ -1,11 +1,12 @@
 <!doctype html>
 <html class="no-js">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Blab Dash</title>
     <meta name="description" content="Statistics on Blab.im, showcasing daily usage metrics, and long term growth.">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" type="image/png" href="../app/favicon.png"/>
+    <meta name="viewport" content="initial-scale=1,user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="../app/favicon.png" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -15,8 +16,9 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-  </head>
-  <body ng-app="blabDashApp">
+</head>
+
+<body ng-app="blabDashApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -24,38 +26,36 @@
     <!-- Add your site or application content here -->
 
     <div class="container">
-    <div ng-view=""></div>
-   	<!-- FORMSPREE -->
-   	<br><br>
-	<div class="formspree">
-		<form action="http://formspree.io/blabdash@gmail.com" method="POST">
-	    <input type="text" name="message" placeholder="Send us suggestions or feedback" style="width: 200px;" spellcheck="false" autocomplete="off">
-	    <input type="submit" id="button" value="Send" style="width: 50px !important;">
-	</form>
-	</div>
-	<!-- FORMSPREE -->
-	
-	<div class="footnote">
-	The stats are for todays calendar day, starting at 00:00 GMT. We calculate the stats using Blab's API. Our numbers are not perfectly accurate. Blab told us their internal statistics are somewhat higher. 
-	</div>
+        <div ng-view=""></div>
+        <!-- FORMSPREE -->
+        <br>
+        <br>
+        <div class="formspree">
+            <form action="http://formspree.io/blabdash@gmail.com" method="POST">
+                <input type="text" name="message" placeholder="Send us suggestions or feedback" class="message" spellcheck="false" autocomplete="off">
+                <input type="submit" id="button" value="Send">
+            </form>
+        </div>
+        <!-- FORMSPREE -->
+
+        <div class="footnote">
+            The stats are for todays calendar day, starting at 00:00 GMT. We calculate the stats using Blab's API. Our numbers are not perfectly accurate. Blab told us their internal statistics are somewhat higher.
+        </div>
 
     </div>
-    
-<!-- TEMPORARILY COMMENTED OUT FOR EXTRA MINIMALISM 
-    <footer>
-      Created by <a href="http://twitter.com/bkawk" target="_blank">@bkawk</a>, <a href="http://twitter.com/sbeleidy" target="_blank">@sbeleidy</a> and <a href="http://twitter.com/aminozuur" target="_blank">@aminozuur</a>.
-    </footer>
--->
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+        ! function(A, n, g, u, l, a, r) {
+            A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+        }(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-       ga('create', 'UA-72518527-1');
-       ga('send', 'pageview');
+        ga('create', 'UA-72518527-1');
+        ga('send', 'pageview');
     </script>
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -73,14 +73,15 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/angularfire/config.js"></script>
-        <script src="scripts/angularfire/firebase.ref.js"></script>
-        <script src="scripts/controllers/stats.js"></script>
-        <script src="scripts/filters/reverse.js"></script>
-        <script src="scripts/routes.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/angularfire/config.js"></script>
+    <script src="scripts/angularfire/firebase.ref.js"></script>
+    <script src="scripts/controllers/stats.js"></script>
+    <script src="scripts/filters/reverse.js"></script>
+    <script src="scripts/routes.js"></script>
+    <!-- endbuild -->
 </body>
+
 </html>
