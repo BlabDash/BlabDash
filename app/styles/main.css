@@ -1,7 +1,7 @@
 /* app css stylesheet */
 
 .container {
-    min-height: 800px;
+    min-height: 700px;
 }
 body {
     font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
@@ -145,7 +145,7 @@ body {
 
 
 .formspree #button{
-background-color: #a282ff;
+	background-color: #a282ff;
     border: 1px solid #a282ff;
     border-radius: 2px;
     height: 50px;
@@ -153,6 +153,18 @@ background-color: #a282ff;
     margin-left: 10px;
     font-size: 1.04em;
 }
+
+/*---------- FOOTER NOTE --------------*/
+
+.footnote {
+	width: 500px;
+    margin: 0 auto;
+    color: #5A4C82;
+    font-size: 12px;
+    text-shadow: 1px 1px #19073C;
+    animation: fadein 1s;
+    animation-delay: .8s;
+    animation-fill-mode: both;}
 
 
 
