@@ -133,19 +133,19 @@ footer {
     padding: 10px;
     outline-width: 0;
     background: #2c2c2c;
-    color: white;
+    color: #63655e;
     margin: 10px 0px 10px 0px;
     animation: fadein 1s;
     animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 .formspree input:focus {
-    border: 1px dashed #666;
+    border: 1px dashed #262626;
 }
 .formspree .message {
     width: 260px;
-    background-color: #262626;
-    border: 1px solid #262626;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
     border-radius: 2px;
     height: 13px;
     text-indent: 10px;
