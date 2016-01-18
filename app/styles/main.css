@@ -124,7 +124,10 @@ footer {
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0;}
+    bottom: 0;
+    margin: 0;
+
+}
 
 
 /*---------- FOOTER FORM --------------*/
@@ -135,12 +138,10 @@ footer {
     background: #2c2c2c;
     color: #63655e;
     margin: 10px 0px 10px 0px;
-    animation: fadein 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: both;
+
 }
 .formspree input:focus {
-    border: 1px dashed #262626;
+    border: 1px dashed gray;
 }
 .formspree .message {
     width: 260px;
@@ -174,14 +175,12 @@ footer {
 /*---------- FOOTER NOTE --------------*/
 
 .footnote {
-	width: 500px;
     margin: 0 auto;
     color: #888;
     font-size: 12px;
     text-shadow: 1px 1px white;
-    animation: fadein 1s;
-    animation-delay: .8s;
-    animation-fill-mode: both;}
+
+}
 
 
 
