@@ -8,6 +8,7 @@ body {
     margin: 50 auto;
     background-color: #1e1e1e;
     text-align: center;
+    background: url(http://dev.blabdash.com/images/bg.cd5956fe.png) fixed;
 }
 
 /*---------- HOME HEADER --------------*/
@@ -23,15 +24,13 @@ body {
     padding-top: 20px;
 }
 .home_header h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #7F559C;
     font-weight: 800;
-    font-size: 50px;
     color: #fff;
     text-decoration: none;
-    max-width: 650px;
+    max-width: 800px;
     margin: auto;
-    letter-spacing: -0.05em;
 }
 .home_header h2 {
     font-size: 30px;
@@ -70,12 +69,11 @@ body {
     color: #f3f3f3;
     padding-top: 35px;
     padding-bottom: 35px;
-    font-weight:200;
+    font-weight: 400;
     letter-spacing: 0.05em;
     font-size: 1.6em;
     background-color: #222222;
-    text-align: left;
-    text-indent: 30px;
+    text-align: center;
     letter-spacing: 0.05em
 }
 .square_key {
@@ -89,7 +87,7 @@ body {
     text-align: left;
     text-indent: 60px;
     background-color: #343434;
-    margin-top: 15px;
+    margin-top: 1px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     letter-spacing: 0.02em
@@ -109,7 +107,7 @@ body {
     height: 36px;
     text-align: center;
     background-color: #343434;
-    margin-top: 15px;
+    margin-top: 1px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     font-weight: bold;
@@ -129,7 +127,7 @@ body {
     color: white;
     margin: 0px 0px 25px 0;
     animation: fadein 1s;
-    animation-delay: 0.8s;
+    animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 .formspree input:focus {
