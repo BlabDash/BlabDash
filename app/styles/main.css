@@ -6,7 +6,7 @@
 body {
     font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
     margin: 50 auto;
-    background-color: #1e1e1e;
+    background-color: #141414;
     text-align: center;
 }
 
@@ -134,8 +134,8 @@ body {
 }
 .formspree .message {
     width: 260px;
-    background-color: #343434;
-    border: 1px solid #343434;
+    background-color: #262626;
+    border: 1px solid #262626;
     border-radius: 2px;
     height: 13px;
     text-indent: 10px;
