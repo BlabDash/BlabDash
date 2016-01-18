@@ -8,7 +8,6 @@ body {
     margin: 50 auto;
     background-color: #1e1e1e;
     text-align: center;
-    background: url(http://dev.blabdash.com/images/bg.cd5956fe.png) fixed;
 }
 
 /*---------- HOME HEADER --------------*/
@@ -125,21 +124,21 @@ body {
     outline-width: 0;
     background: #2c2c2c;
     color: white;
-    margin: 0px 0px 25px 0;
+    margin: 10px 0px 10px 0px;
     animation: fadein 1s;
     animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 .formspree input:focus {
-    border: 1px dashed #622c97;
+    border: 1px dashed #666;
 }
 .formspree .message {
     width: 260px;
     background-color: #343434;
     border: 1px solid #343434;
     border-radius: 2px;
-    height: 30px;
-    text-indent: 15px;
+    height: 13px;
+    text-indent: 10px;
     letter-spacing: 0.04em;
 }
 
@@ -148,20 +147,28 @@ body {
 	background-color: #a282ff;
     border: 1px solid #a282ff;
     border-radius: 2px;
-    height: 50px;
+    /*
+    height: 25px;
     width: 110px;
     margin-left: 10px;
     font-size: 1.04em;
+    */
 }
+
+.formspree #button:focus {
+	background: #94ce38;
+    border: 1px solid #94ce38;
+}
+
 
 /*---------- FOOTER NOTE --------------*/
 
 .footnote {
 	width: 500px;
     margin: 0 auto;
-    color: #5A4C82;
+    color: #444;
     font-size: 12px;
-    text-shadow: 1px 1px #19073C;
+    text-shadow: 1px 1px #111;
     animation: fadein 1s;
     animation-delay: .8s;
     animation-fill-mode: both;}
