@@ -1,13 +1,21 @@
 /* app css stylesheet */
 
-.container {
-    min-height: 700px;
+html {
+    height: 100%;
 }
 body {
     font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
-    margin: 50 auto;
     background-color: #141414;
     text-align: center;
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+.view {
+    height: 100%;
+    min-height: 750px;
+    position: relative;
+    margin: 0;
 }
 
 /*---------- HOME HEADER --------------*/
@@ -32,7 +40,7 @@ body {
     margin: auto;
 }
 .home_header h2 {
-    font-size: 30px;
+    font-size: 28px;
     color: #a787e0;
     font-weight: 200;
     position: relative;
@@ -51,7 +59,6 @@ body {
 /*---------- HOME SQUARE --------------*/
 
 .square_one {
-   
     max-width: 400px;
     height: 400px;
     margin: auto;
@@ -61,7 +68,6 @@ body {
     animation: fadein 1s;
     animation-delay: 0.8s;
     animation-fill-mode: both;
-
 }
 .square_header {
     width: 100%;
@@ -80,17 +86,16 @@ body {
     float: left;
     color: #dddddd;
     font-size: 1em;
-    font-weight:100;
+    font-weight: 100;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
     text-indent: 60px;
     background-color: #343434;
-    margin-top: 1px;
+    margin-top: 10px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     letter-spacing: 0.02em
- 
 }
 .square_key:hover {
     text-shadow: 1px 1px #222222;
@@ -100,37 +105,34 @@ body {
     float: left;
     color: #dddddd;
     font-size: 1em;
-    font-weight:100;
+    font-weight: 100;
     padding-top: 20px;
     padding-bottom: 2px;
     height: 36px;
     text-align: center;
     background-color: #343434;
-    margin-top: 1px;
+    margin-top: 10px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     font-weight: bold;
-
 }
 .square_value:hover {
-    text-shadow: 1px 1px #a857e1;
+    text-shadow: 1px 1px #222222;
 }
 
 /*---------- FOOTER --------------*/
 
 footer {
-	background: #fbfbfb;
+    background: #fbfbfb;
     padding: 25px 0 25px 0;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0;
-
 }
 
 
-/*---------- FOOTER FORM --------------*/
 
 .formspree input {
     padding: 10px;
@@ -138,52 +140,38 @@ footer {
     background: #2c2c2c;
     color: #63655e;
     margin: 10px 0px 10px 0px;
+}
 
-}
-.formspree input:focus {
-    border: 1px dashed gray;
-}
 .formspree .message {
-    width: 260px;
-    background-color: #f1f1f1;
+    width: 370px;
+    background-color: #fff;
     border: 1px solid #f1f1f1;
-    border-radius: 2px;
+
     height: 13px;
     text-indent: 10px;
     letter-spacing: 0.04em;
 }
-
-
-.formspree #button{
-	background-color: #a282ff;
-    border: 1px solid #a282ff;
+.formspree #button {
+    background-color: #955ff1;
+    border: 1px solid #955ff1;
     border-radius: 2px;
     cursor: pointer;
-    /*
-    height: 25px;
-    width: 110px;
-    margin-left: 10px;
-    font-size: 1.04em;
-    */
+    color: #fff;
+    width: 90px;
 }
-
 .formspree #button:focus {
-	background: #94ce38;
+    background: #94ce38;
     border: 1px solid #94ce38;
 }
-
 
 /*---------- FOOTER NOTE --------------*/
 
 .footnote {
     margin: 0 auto;
-    color: #888;
+    color: #bfbfbf;
     font-size: 12px;
     text-shadow: 1px 1px white;
-
 }
-
-
 
 /*---------- ANIMATION --------------*/
 
@@ -201,6 +189,7 @@ footer {
 }
 
 /*---------- BLAB STYLE REFERENCE --------------*/
+
 
 /*
 Font = “Open Sans”
@@ -254,4 +243,3 @@ Dark Border = #b1b1b1
 Grey Border = #e5e3e8
 Pink Border = #ece8f3
 */
-
