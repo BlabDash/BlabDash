@@ -1,3 +1,7 @@
+@import "settings";
+@import "../bower_components/foundation-apps/scss/foundation";
+
+
 /* app css stylesheet */
 
 html {
@@ -21,6 +25,7 @@ body {
 /*---------- HOME HEADER --------------*/
 
 .home_header {
+    
     animation: fadein 1s;
     animation-duration: 1s;
     animation-delay: 0.2s;
