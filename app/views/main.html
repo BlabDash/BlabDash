@@ -1,3 +1,38 @@
+<div class="grid-container">
+    
+    <h1>Welcome to BlabDash</h1>
+    <h2>A tool that allows you to track Blab's growth</h2>
+    
+    <div class="square_one">
+        
+        <div class="square_header">Today's stats</div>
+        
+        <div class="data_row">
+        <div class="square_key">Signed in</div>
+        <div class="square_value">{{today[0].total_unique | number:0}}</div>
+        </div>
+        
+        <div class="data_row">
+        <div class="square_key">Jumped on cam</div>
+        <div class="square_value">{{today[0].total_on_cam | number:0}}</div>
+        </div>
+        
+        <div class="data_row">
+        <div class="square_key">Blabs created</div>
+        <div class="square_value">{{today[0].total_blabs | number:0}}</div>
+        </div>
+        
+        <div class="data_row">
+        <div class="square_key">New users</div>
+        <div class="square_value">{{today[0].total_new_users | number:0}}</div>
+        </div>
+        
+    </div>
+    
+</div>
+
+<!--
+
 <div class="home_header">
     <h1>Welcome to BlabDash  <img src="http://emojipedia-us.s3.amazonaws.com/cache/f2/2e/f22eeaffb4cf3d62c240ac49e72f3745.png" width="50"></h1>
     <h2>A tool that allows you to track Blab's growth</h2>
@@ -16,7 +51,9 @@
 
 
 <footer>
-<!-- TWITTER BUTTON- -->
+
+
+
 <a href="https://twitter.com/blabdash" class="twitter-follow-button" data-show-count="false">Follow @blabdash</a>
 
 <script>
@@ -33,10 +70,10 @@
 </script>
 
 
-<!-- GITHUB BUTTON- -->
+
 <iframe src="https://ghbtns.com/github-btn.html?user=blabdash&repo=blabdash&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
 
-    <!-- FORMSPREE -->
+
 <div class="formspree">
     <form action="http://formspree.io/blabdash@gmail.com" method="POST">
         <input type="text" name="message" placeholder="Send us some cool suggestions..." class="message" spellcheck="false" autocomplete="off">
@@ -46,3 +83,5 @@
    
 <div class="footnote">Days start at 00:00 GMT. Data is provided by Blab's Public API. Actual data may vary.</div>
 </footer>
+
+-->

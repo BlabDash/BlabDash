@@ -2,249 +2,251 @@
 @import "../bower_components/foundation-apps/scss/foundation";
 
 
-/* app css stylesheet */
+//-----------DARK COLOURS
+//=======================
+// Backgrounds
+$background-dark-grey: #141414;
+$background-focus-grey: #262626;
+$button-background-purple: #a282ff;
+$star-grey: #545659;
 
-html {
-    height: 100%;
-}
-body {
-    font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
-    background-color: #141414;
-    text-align: center;
-    height: 100%;
-    position: relative;
-    margin: 0;
-}
-.view {
-    height: 100%;
-    min-height: 800px;
-    position: relative;
-    margin: 0;
-}
+// Text
+$white-text: #ffffff;
+$light-grey-text: #a9a9a9;
+$dark-grey-text: #63655e;
+$purple-text: #a787e0;
 
-/*---------- HOME HEADER --------------*/
+// Borders
+$black-border: #000000;
 
-.home_header {
-    
-    animation: fadein 1s;
-    animation-duration: 1s;
-    animation-delay: 0.2s;
-    animation-fill-mode: both;
-    position: relative;
-    display: block;
-    padding-bottom: 40px;
-    padding-top: 20px;
-}
-.home_header h1 {
-    font-size: 50px;
-    color: #7F559C;
-    font-weight: 800;
-    color: #fff;
-    text-decoration: none;
-    max-width: 800px;
-    margin: auto;
-}
-.home_header h2 {
-    font-size: 28px;
-    color: #a787e0;
-    font-weight: 200;
-    position: relative;
-    margin: auto;
-    display: block;
-    max-width: 650px;
-    letter-spacing: 0.05em
-}
-.rocket_icon {
-    width: 50px;
-    float: right;
-    position: relative;
-    top: 4px;
-}
+//-----------LIGHT COLOURS
+//========================
+// Backgrounds
+$light-focus: #ffffff;
+$light-background: #fbfbfb;
+$grey-background: #eef2f6;
+$grey-tag-background: #f1f1f1;
+$purple-background: #955ff1;
 
-/*---------- HOME SQUARE --------------*/
+//Text
+$black-text: #1f1f1f;
+$dark-text: #474747;
+$light-text: #888888;
 
-.square_one {
-    max-width: 400px;
-    height: 400px;
-    margin: auto;
-    display: block;
-    position: relative;
-    margin-bottom: 40px;
-    animation: fadein 1s;
-    animation-delay: 0.8s;
-    animation-fill-mode: both;
-}
-.square_header {
-    width: 100%;
-    color: #f3f3f3;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    font-size: 1.6em;
-    background-color: #222222;
-    text-align: center;
-    letter-spacing: 0.05em
-}
-.square_key {
-    width: 70%;
-    float: left;
-    color: #dddddd;
-    font-size: 1em;
-    font-weight: 100;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    text-indent: 60px;
-    background-color: #343434;
-    margin-top: 10px;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-    letter-spacing: 0.02em
-}
-.square_key:hover {
-    text-shadow: 1px 1px #222222;
-}
-.square_value {
-    width: 30%;
-    float: left;
-    color: #dddddd;
-    font-size: 1em;
-    font-weight: 100;
-    padding-top: 20px;
-    padding-bottom: 2px;
-    height: 36px;
-    text-align: center;
-    background-color: #343434;
-    margin-top: 10px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    font-weight: bold;
-}
-.square_value:hover {
-    text-shadow: 1px 1px #222222;
-}
+// Borders
+$dark-border: #b1b1b1;
+$grey-border: #e5e3e8;
+$pink-border: #ece8f3;
 
-/*---------- FOOTER --------------*/
+//--------------SPOT COLORS
+//=========================
 
-footer {
-    background: #fbfbfb;
-    padding: 25px 0 25px 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    height: 100px;
-    overflow: hidden;
-}
-.formspree {
-    width: 100%;
-    max-width: 750px;
-    margin: auto;
-}
-.formspree input {
-    padding: 10px;
-    outline-width: 0;
-    margin: 10px 0px 10px 0px;
-}
-.formspree .message {
-    width: 50%;
-    background-color: #fff;
-    border: 1px solid #f1f1f1;
-    height: 13px;
-    text-indent: 10px;
-    letter-spacing: 0.04em;
-}
-.formspree #button {
-    background-color: #955ff1;
-    border: 1px solid #955ff1;
-    border-radius: 2px;
-    cursor: pointer;
-    color: #fff;
-    width: 90px;
-}
-.formspree #button:focus {
-    background: #94ce38;
-    border: 1px solid #94ce38;
-}
-
-/*---------- FOOTER NOTE --------------*/
-
-.footnote {
-    margin: 0 auto;
-    color: #bfbfbf;
-    font-size: 12px;
-    text-shadow: 1px 1px white;
-}
-
-/*---------- ANIMATION --------------*/
-
-@keyframes fadein {
-    from {
-        top: 0px;
-        opacity: 0;
-        transform: scale(0.6);
-    }
-    to {
-        top: 0px;
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-/*---------- BLAB STYLE REFERENCE --------------*/
+$blab-blue: #689aff;
+$blab-blue-dark: #4884b8;
+$blab-yellow: #ffc566;
+$blab-yellow-dark: #e8a82c;
+$blab-green: #73e18d;
+$blab-dark-green: #52b046;
+$blab-red: #ff6868;
+$blab-dark-ded: #cd3a54;
 
 
-/*
-Font = “Open Sans”
-Line-height: 1.25;
-
-DARK COLOURS
-========================
-Background Dark Grey = #141414
-Background Focus Grey = #262626
-Button Background = #a282ff
-
-Dark Grey Text = #63655e
-White Text = #ffffff
-Light Grey Text = #a9a9a9
-Purple Text = #a787e0
-
-Black Border = #000000
-Star Grey = #545659
 
 
-MAIN COLORS
-=========================
-
-Blab Blue = #689aff
-Blab Blue Dark = #4884b8
-
-Blab Yellow = #ffc566
-Blab Yellow Dark = #e8a82c
-
-Blab Green = #73e18d
-Blab Dark Green = #52b046
-
-Blab Red = #ff6868
-Blab Dark Red = #cd3a54
 
 
-LIGHT COLOURS
-========================
 
-Light Focus = #ffffff
-Light Background = #fbfbfb
-Grey Background = #eef2f6
-Grey Tag Background = #f1f1f1
-Purple Background = #955ff1
+///* app css stylesheet */
+//
+//html {
+//    height: 100%;
+//}
+//body {
+//    font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+//    background-color: #141414;
+//    text-align: center;
+//    height: 100%;
+//    position: relative;
+//    margin: 0;
+//}
+//.view {
+//    height: 100%;
+//    min-height: 800px;
+//    position: relative;
+//    margin: 0;
+//}
+//
+///*---------- HOME HEADER --------------*/
+//
+//.home_header {
+//    
+//    animation: fadein 1s;
+//    animation-duration: 1s;
+//    animation-delay: 0.2s;
+//    animation-fill-mode: both;
+//    position: relative;
+//    display: block;
+//    padding-bottom: 40px;
+//    padding-top: 20px;
+//}
+//.home_header h1 {
+//    font-size: 50px;
+//    color: #7F559C;
+//    font-weight: 800;
+//    color: #fff;
+//    text-decoration: none;
+//    max-width: 800px;
+//    margin: auto;
+//}
+//.home_header h2 {
+//    font-size: 28px;
+//    color: #a787e0;
+//    font-weight: 200;
+//    position: relative;
+//    margin: auto;
+//    display: block;
+//    max-width: 650px;
+//    letter-spacing: 0.05em
+//}
+//.rocket_icon {
+//    width: 50px;
+//    float: right;
+//    position: relative;
+//    top: 4px;
+//}
+//
+///*---------- HOME SQUARE --------------*/
+//
+//.square_one {
+//    max-width: 400px;
+//    height: 400px;
+//    margin: auto;
+//    display: block;
+//    position: relative;
+//    margin-bottom: 40px;
+//    animation: fadein 1s;
+//    animation-delay: 0.8s;
+//    animation-fill-mode: both;
+//}
+//.square_header {
+//    width: 100%;
+//    color: #f3f3f3;
+//    padding-top: 35px;
+//    padding-bottom: 35px;
+//    font-weight: 400;
+//    letter-spacing: 0.05em;
+//    font-size: 1.6em;
+//    background-color: #222222;
+//    text-align: center;
+//    letter-spacing: 0.05em
+//}
+//.square_key {
+//    width: 70%;
+//    float: left;
+//    color: #dddddd;
+//    font-size: 1em;
+//    font-weight: 100;
+//    padding-top: 20px;
+//    padding-bottom: 20px;
+//    text-align: left;
+//    text-indent: 60px;
+//    background-color: #343434;
+//    margin-top: 10px;
+//    border-top-left-radius: 2px;
+//    border-bottom-left-radius: 2px;
+//    letter-spacing: 0.02em
+//}
+//.square_key:hover {
+//    text-shadow: 1px 1px #222222;
+//}
+//.square_value {
+//    width: 30%;
+//    float: left;
+//    color: #dddddd;
+//    font-size: 1em;
+//    font-weight: 100;
+//    padding-top: 20px;
+//    padding-bottom: 2px;
+//    height: 36px;
+//    text-align: center;
+//    background-color: #343434;
+//    margin-top: 10px;
+//    border-top-right-radius: 2px;
+//    border-bottom-right-radius: 2px;
+//    font-weight: bold;
+//}
+//.square_value:hover {
+//    text-shadow: 1px 1px #222222;
+//}
+//
+///*---------- FOOTER --------------*/
+//
+//footer {
+//    background: #fbfbfb;
+//    padding: 25px 0 25px 0;
+//    position: absolute;
+//    left: 0;
+//    right: 0;
+//    bottom: 0;
+//    margin: 0;
+//    height: 100px;
+//    overflow: hidden;
+//}
+//.formspree {
+//    width: 100%;
+//    max-width: 750px;
+//    margin: auto;
+//}
+//.formspree input {
+//    padding: 10px;
+//    outline-width: 0;
+//    margin: 10px 0px 10px 0px;
+//}
+//.formspree .message {
+//    width: 50%;
+//    background-color: #fff;
+//    border: 1px solid #f1f1f1;
+//    height: 13px;
+//    text-indent: 10px;
+//    letter-spacing: 0.04em;
+//}
+//.formspree #button {
+//    background-color: #955ff1;
+//    border: 1px solid #955ff1;
+//    border-radius: 2px;
+//    cursor: pointer;
+//    color: #fff;
+//    width: 90px;
+//}
+//.formspree #button:focus {
+//    background: #94ce38;
+//    border: 1px solid #94ce38;
+//}
+//
+///*---------- FOOTER NOTE --------------*/
+//
+//.footnote {
+//    margin: 0 auto;
+//    color: #bfbfbf;
+//    font-size: 12px;
+//    text-shadow: 1px 1px white;
+//}
+//
+///*---------- ANIMATION --------------*/
+//
+//@keyframes fadein {
+//    from {
+//        top: 0px;
+//        opacity: 0;
+//        transform: scale(0.6);
+//    }
+//    to {
+//        top: 0px;
+//        opacity: 1;
+//        transform: scale(1);
+//    }
+//}
+//
+///*---------- BLAB STYLE REFERENCE --------------*/
 
-Black Text = #1f1f1f
-Dark Text = #474747
-Light Text = #888888
 
-Dark Border = #b1b1b1
-Grey Border = #e5e3e8
-Pink Border = #ece8f3
-*/

@@ -69,7 +69,7 @@
 // - - - - - - - - - - - - - - -
 
 // This sets 1rem to be 16px
-// $rem-base: 16px;
+ $rem-base: 16px;
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -77,10 +77,10 @@
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-// $base-font-size: 100%;
+ $base-font-size: 100%;
 
 // $base-line-height is 24px while $base-font-size is 16px
-// $base-line-height: 1.5;
+ $base-line-height: 1.5;
 
 // Text selector helpers
 // $headers: "h1,h2,h3,h4,h5,h6";
@@ -90,12 +90,12 @@
 // $font-weight-bold: bold;
 
 // We use these to control various global styles
-// $body-background: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+ $body-background: #141414;
+ $body-font-color: #fff;
+ $body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
-// $body-antialiased: true;
+ $body-antialiased: true;
 
 // Application Colors
 // $primary-color: #00558b;
@@ -121,13 +121,13 @@
 // - - - - - - - - - - - - - - -
 
 // These are our named breakpoints. You can use them in our breakpoint function like this: @include breakpoint(medium) { // Medium and larger styles }
-// $breakpoints: (
-//   small: rem-calc(0),
-//   medium: rem-calc(640),
-//   large: rem-calc(1200),
-//   xlarge: rem-calc(1440),
-//   xxlarge: rem-calc(1920),
-// );
+ $breakpoints: (
+   small: rem-calc(0),
+   medium: rem-calc(640),
+   large: rem-calc(1200),
+   xlarge: rem-calc(1440),
+   xxlarge: rem-calc(1920),
+ );
 
 // All of the names in this list will be output as classes in your CSS, like small-12, medium-6, and so on.
 // $breakpoint-classes: (small medium large); 
@@ -143,7 +143,7 @@
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
-// $header-text-rendering: optimizeLegibility;
+ $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
