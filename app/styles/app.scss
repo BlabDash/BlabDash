@@ -56,6 +56,128 @@ $blab-dark-ded: #cd3a54;
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*---------- HOME SQUARE --------------*/
+
+.square_one {
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+    animation: fadein 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: both;
+}
+
+.square_header {
+    width: 100%;
+    color: #f3f3f3;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 1.6em;
+    background-color: #222222;
+    text-align: center;
+    letter-spacing: 0.05em
+}
+.square_key {
+    width: 70%;
+    float: left;
+    color: #dddddd;
+    font-size: 1em;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    text-indent: 60px;
+    background-color: #343434;
+    margin-top: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    letter-spacing: 0.02em
+}
+.square_key:hover {
+    text-shadow: 1px 1px #222222;
+}
+.square_value {
+    width: 30%;
+    float: left;
+    color: #dddddd;
+    font-size: 1em;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    height: 56px;
+    text-align: center;
+    background-color: #343434;
+    margin-top: 10px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-weight: bold;
+}
+.square_value:hover {
+    text-shadow: 1px 1px #222222;
+}
+
+
+
+
+
+.home_header {
+    
+    animation: fadein 1s;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    position: relative;
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+h1 {
+    font-size: 50px;
+    color: #7F559C;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    max-width: 800px;
+    margin: auto;
+}
+h2 {
+    font-size: 28px;
+    color: #a787e0;
+    font-weight: 200;
+    position: relative;
+    margin: auto;
+    display: block;
+    max-width: 650px;
+    letter-spacing: 0.05em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///* app css stylesheet */
 //
 //html {
